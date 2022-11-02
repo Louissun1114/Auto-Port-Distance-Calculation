@@ -1,8 +1,18 @@
 var axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+
+// fs.readFile(path.join('portNo.json'),'utf8',(err,data) => {
+//   if(err) {
+//     console.log(err)
+//     return
+//   }
+//   console.log(data);
+// })
 
 const params = new URLSearchParams({
-    a: 287,
-    b: 12,
+    a: 1679,
+    b: 857,
   }).toString();
 
 var config = {
